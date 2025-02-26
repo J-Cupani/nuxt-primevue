@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./app/*"],
+      "@images/*": ["./app/assets/images/*"],
+      "@styles/*": ["./app/assets/css/*"],
+      "@icons/*": ["./app/assets/icons/*"],
+      "@fonts/*": ["./app/assets/fonts/*"]
+    }
+  },
+  "exclude": ["node_modules", ".output", ".nuxt"]
+}
