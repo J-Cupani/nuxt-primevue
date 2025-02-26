@@ -37,6 +37,9 @@ const CustomPresetPrimeVue = definePreset(Aura, {
           hoverColor: '{primary.600}',
           activeColor: '{primary.700}'
         },
+        surface: {
+          100: '{zinc.100}',
+        }
       },
       dark: {
         primary: {
@@ -44,6 +47,9 @@ const CustomPresetPrimeVue = definePreset(Aura, {
           hoverColor: '{primary.300}',
           activeColor: '{primary.200}'
         },
+        surface: {
+          950: '{zinc.950}',
+        }
       }
     }
   }
