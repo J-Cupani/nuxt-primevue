@@ -5,10 +5,11 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/',
     head: {
-      title: 'Sakai Vue',
+      title: 'Template Nuxt PrimeVue',
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
-        { charset: 'UTF-8' }
+        { charset: 'UTF-8' },
+        { name: 'description', content: 'Une description concise et attrayante de la page pour améliorer le SEO.' }
       ],
       link: [
         { rel: 'icon', href: '/favicon.ico' },
