@@ -14,6 +14,7 @@
         <section class="my-8">
           <h2 class="text-2xl font-semibold mb-4 text-f-secondary">Découvrez notre service</h2>
           <p class="text-f-dark">Notre plateforme offre les meilleures solutions pour répondre à vos besoins.</p>
+          <NuxtImg src="profil.jpg" alt="profil logo" width="222" height="227" />
         </section>
         <section class="my-8 bg-f-accent p-6 rounded-lg shadow">
           <h2 class="text-2xl font-semibold mb-4 text-white">Pourquoi nous choisir ?</h2>

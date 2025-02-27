@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/image": "^1.9.0",
     "@pinia/nuxt": "^0.10.1",
     "@primeuix/themes": "^1.0.0",
     "@vueuse/core": "^12.7.0",
@@ -23,8 +24,8 @@
   "devDependencies": {
     "@nuxt/components": "^2.2.1",
     "@nuxtjs/tailwindcss": "^6.13.1",
-    "@primevue/nuxt-module": "^4.3.0",
     "@primevue/auto-import-resolver": "^4.3.1",
+    "@primevue/nuxt-module": "^4.3.0",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.24",
     "sass": "^1.55.0",

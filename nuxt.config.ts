@@ -26,7 +26,7 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
 
-  modules: ['@nuxtjs/tailwindcss', '@primevue/nuxt-module'],
+  modules: ['@nuxtjs/tailwindcss', '@primevue/nuxt-module', '@nuxt/image'],
 
   components: [
     {
@@ -69,5 +69,19 @@ export default defineNuxtConfig({
         '@fonts': '/app/assets/fonts'
       }
     }
+  },
+
+  image: {
+    format: ['webp'],
+    quality: 80,
+    screens: {
+      'xs': 320,
+      'sm': 640,
+      'md': 768,
+      'lg': 1024,
+      'xl': 1280,
+      'xxl': 1536,
+      '2xl': 1536
+    },
   }
 })
